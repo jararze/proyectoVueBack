@@ -1,0 +1,15 @@
+Practica1 Vue3
+Nombre(s) de integrante(s):
+- Jorge ARze
+Pasos para iniciar el proyecto
+1. **Clonar el repositorio**
+   ```bash
+   git clone hhttps://github.com/jararze/proyectoVueBack.git
+   cd gestor-contactos
+
+2. **Instalar dependencias**
+    ```bash
+   npm install
+3. ** Ejecutar el servidor de desarrollo **
+   ```bash
+   npm run dev

@@ -109,7 +109,7 @@ export default {
     // Obtener todos los contactos del backend
     fetchContacts() {
       axios
-          .get("http://gestorcontactosbackend.test/api/contactos")
+          .get("https://phpstack-1382256-5134768.cloudwaysapps.com/api/contactos")
           .then((response) => {
             // console.log(response);
             // this.$emit("update:contacts", response.data);
@@ -131,7 +131,7 @@ export default {
         // Actualizar contacto
         axios
             .put(
-                `http://gestorcontactosbackend.test/api/contactos/${contact.id}`,
+                `https://phpstack-1382256-5134768.cloudwaysapps.com/api/contactos/${contact.id}`,
                 contact
             )
             .then(() => {
@@ -145,7 +145,7 @@ export default {
       } else {
         // Crear nuevo contacto
         axios
-            .post("http://gestorcontactosbackend.test/api/contactos", contact)
+            .post("https://phpstack-1382256-5134768.cloudwaysapps.com/api/contactos", contact)
             .then(() => {
               this.fetchContacts(); // Actualizar la tabla
               this.showSnackbar("Contacto agregado correctamente.");
@@ -161,7 +161,7 @@ export default {
     // Eliminar un contacto
     deleteContact(id) {
       axios
-          .delete(`http://gestorcontactosbackend.test/api/contactos/${id}`)
+          .delete(`https://phpstack-1382256-5134768.cloudwaysapps.com/api/contactos/${id}`)
           .then(() => {
             this.fetchContacts(); // Actualizar la lista de contactos
           })
@@ -178,7 +178,7 @@ export default {
     confirmDelete(id) {
       if (confirm("¿Estás seguro de que deseas eliminar este contacto?")) {
         axios
-            .delete(`http://gestorcontactosbackend.test/api/contactos/${id}`)
+            .delete(`https://phpstack-1382256-5134768.cloudwaysapps.com/api/contactos/${id}`)
             .then(() => {
               this.fetchContacts();
               this.showSnackbar("Contacto eliminado correctamente.");
