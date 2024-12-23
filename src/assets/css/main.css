@@ -1,0 +1,129 @@
+/* Reset básico */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Fondo oscuro */
+    color: #ffffff; /* Texto claro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Altura mínima para ocupar toda la pantalla */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px; /* Limitar ancho máximo */
+    width: 100%;
+    background: #1e1e1e; /* Fondo oscuro del contenedor */
+    padding: 20px;
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+    margin: 20px; /* Espaciado externo */
+}
+
+/* Títulos */
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #bb86fc; /* Color primario para títulos */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Tabla de Contactos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #1e1e1e; /* Fondo de tabla oscuro */
+    border: 1px solid #333; /* Bordes oscuros */
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #333;
+    color: #e0e0e0; /* Texto más claro */
+}
+
+table th {
+    background-color: #292929; /* Fondo oscuro para encabezados */
+    color: #ffffff; /* Texto claro */
+}
+
+table tr:hover {
+    background-color: #333; /* Fondo más claro al pasar el ratón */
+}
+
+/* Botones */
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+button.edit {
+    background-color: #03dac5; /* Verde claro */
+    color: #000; /* Texto oscuro */
+    margin-right: 5px;
+}
+
+button.edit:hover {
+    background-color: #018786; /* Verde más oscuro */
+}
+
+button.delete {
+    background-color: #cf6679; /* Rojo claro */
+    color: #000; /* Texto oscuro */
+}
+
+button.delete:hover {
+    background-color: #b00020; /* Rojo más oscuro */
+}
+
+/* Formulario */
+form {
+    background: #1e1e1e; /* Fondo oscuro */
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #bb86fc; /* Color primario */
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #292929; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
+}
+
+form input::placeholder {
+    color: #888; /* Placeholder gris */
+}
+
+form button {
+    background-color: #03dac5; /* Verde claro */
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #018786; /* Verde más oscuro */
+}
