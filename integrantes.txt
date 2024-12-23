@@ -5,7 +5,7 @@ Pasos para iniciar el proyecto
 1. **Clonar el repositorio**
    ```bash
    git clone hhttps://github.com/jararze/proyectoVueBack.git
-   cd gestor-contactos
+   cd gproyectoVueBack
 
 2. **Instalar dependencias**
     ```bash

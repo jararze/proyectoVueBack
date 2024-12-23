@@ -25,7 +25,7 @@ Antes de comenzar, asegúrate de tener instalado:
 1. **Clonar el repositorio**
    ```bash
    git clone hhttps://github.com/jararze/proyectoVueBack.git
-   cd gestor-contactos
+   cd proyectoVueBack
    
 2. **Instalar dependencias**
     ```bash
